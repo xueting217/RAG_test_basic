@@ -117,13 +117,3 @@ streamlit run app_qa.py
 | 准确率提升 | ≥15% | 22.15% | ✅ 达成 |
 | 效率提升 | ≥30% | 30.91% | ✅ 达成 |
 | 满意度提升 | ≥25% | 25.00% | ✅ 达成 |
-
-## 项目结构
-RAG_Project/
-├── ab_test_analysis.py # AB 测试分析脚本
-├── verify_rag_system.py # RAG 系统验证脚本
-├── rag.py # RAG 核心服务
-├── vector_stores.py # 向量存储服务
-├── app_qa.py # Web 交互界面
-├── data/ # 知识库数据
-└── chroma_db/ # 向量数据库
